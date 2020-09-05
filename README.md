@@ -14,5 +14,5 @@ I run into the issue on both Chrome and Safari that when running something like 
   ```javascript
   <script>
     script('your-js-file.js');
-  </script
+  </script>
   ``` 
