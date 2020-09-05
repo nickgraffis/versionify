@@ -6,4 +6,3 @@ function scripts (file) {
 
     document.getElementsByTagName('head').item(0).appendChild(script);
 }
-scripts('bundle.js');
