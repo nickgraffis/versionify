@@ -7,7 +7,7 @@ I run into the issue on both Chrome and Safari that when running something like 
 # Usage
 <p>Use something like raw.githack to create a raw link to the index.js file of versionify and add it to the head of your document.</p>
 
-```<script type="text/javascript" src="https://raw.githack.com/nickgraffis/versionify/master/index.js"></script>``` 
+```<script type="text/javascript" src="https://raw.githack.com/nickgraffis/versionify/master/versionify.js"></script>``` 
 
 <p>Then just below call a function for each of the JS files you'd like randomly versionified</p>
 

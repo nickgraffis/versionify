@@ -1,0 +1,27 @@
+{
+  "name": "versionify.js",
+  "version": "1.0.0",
+  "description": "Simply script to create random versions for your script and css files to avoid your browser cacheing your changes during development.",
+  "main": "versionify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgraffis/versionify.git"
+  },
+  "keywords": [
+    "version",
+    "cache"
+  ],
+  "author": "Nick Graffis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickgraffis/versionify/issues"
+  },
+  "homepage": "https://github.com/nickgraffis/versionify#readme",
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "bulma-start": "0.0.4"
+  }
+}

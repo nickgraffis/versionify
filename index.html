@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script type="text/javascript" src="versionify.js"></script>
+	<script>
+		scripts('index.js');
+		links('assets/style.css')
+	</script>
+</head>
+<body>
+	<section class="hero is-fullheight">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="column is-6 is-offset-1">
+					<p class="title">
+						<span>Versionify.js</span>
+						<span>A simple, 1 function, 260 Byte file to help avoid browser cacheing.</span>
+					</p>
+					<p class="subtitle is-4">
+						<i>Place <code><script type="text/javascript" src="https://raw.githack.com/nickgraffis/versionify/master/versionify.js"></script></code> at the head of your document.</i>
+					</p>
+					<p class="subtitle is-4">
+						<i>Add <code><script>scripts('your-js-file.js');</script></code></i>.
+					</p>
+					<p class="subtitle is-4">
+						<i>Works for CSS too! use <code>links('your-css-file.css');</code>.</i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
