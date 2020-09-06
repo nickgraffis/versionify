@@ -1,6 +1,6 @@
 {
   "name": "@nickgraffis/versionify",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple scripts to create random versions for your scripts and css files to avoid your browser cacheing your changes during development.",
   "main": "versionify.js",
   "scripts": {
@@ -20,7 +20,5 @@
     "url": "https://github.com/nickgraffis/versionify/issues"
   },
   "homepage": "https://nickgraffis.github.io/versionify",
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
