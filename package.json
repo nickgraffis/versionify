@@ -1,5 +1,5 @@
 {
-  "name": "versionify.js",
+  "name": "@nickgraffis/versionify",
   "version": "1.0.0",
   "description": "Simply script to create random versions for your script and css files to avoid your browser cacheing your changes during development.",
   "main": "versionify.js",
