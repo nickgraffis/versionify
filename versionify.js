@@ -10,7 +10,7 @@ function scripts (file) {
 function styles (file) {
     var link = document.createElement('link');
     link.href = file + '?v=' + Math.random();
-    link.type = 'text/css';
+    link.rel = 'stylesheet';
     link.defer = true;
 
     document.getElementsByTagName('head').item(0).appendChild(link);

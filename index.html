@@ -5,28 +5,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<script type="text/javascript" src="versionify.js"></script>
+	<script src="https://kit.fontawesome.com/7652f157a9.js" crossorigin="anonymous"></script>
 	<script>
+		styles('assets/style.css');
 		scripts('index.js');
-		styles('assets/style.css')
 	</script>
 </head>
 <body>
+	<nav class="navbar is-transparent is-spaced">
+		<nav class="navbar-brand">
+			<div class="navbar-item">
+				<a class="sun" id="brand" onclick="colorMode()">
+					<span class="fa-stack fa-1x">
+						<i class="far fa-circle fa-stack-2x sun-icon-border" id="border"></i>
+					  	<i class="fa fa-sun fa-stack-1x" id="color-mode"></i>
+					</span>
+				</a>
+			</div>
+		</nav>
+	</nav>
 	<section class="hero is-fullheight">
 		<div class="hero-body">
-			<div class="container has-text-centered">
+			<div class="container">
 				<div class="column is-6 is-offset-1">
-					<p class="title">
-						<span>Versionify.js</span>
-						<span>A simple, 1 function, 260 Byte file to help avoid browser cacheing.</span>
+					<p class="title is-1">
+						<span class="sun" id="title">Versionify.js</span>
 					</p>
-					<p class="subtitle is-4">
-						<i>Place <!-- <code><script type="text/javascript" src="https://raw.githack.com/nickgraffis/versionify/master/versionify.js"></script></code> --> at the head of your document.</i>
-					</p>
-					<p class="subtitle is-4">
-						<i>Add <!-- <code><script>scripts('your-js-file.js');</script> --></code></i>.
-					</p>
-					<p class="subtitle is-4">
-						<i>Works for CSS too! use <code>styles('your-css-file.css');</code>.</i>
+					<p class="subtitle is-4 pt-4 is-italic">
+						<span class="sun" id="subtitle">A super simple way to avoid broswer cacheing when working. </br></br>
+						Use something like raw.githack and place versionify.js in the head of your doucment. </br></br>
+						<pre><code></code></pre>
+						Or npm install versionify and place the path/to/versionify into the head of your document. </br></br>
+						Add <code> scripts('your-file.js');</code> to the head of your doucment for each JS file and <code>styles('your-file.css')</code> for all of your css files. </br></br> By <i class="fab fa-github-alt"></i> <a href="https://github.com/nickgraffis">@nickgraffis</a>.</span>
 					</p>
 				</div>
 			</div>

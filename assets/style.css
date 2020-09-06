@@ -1,4 +1,42 @@
 @import "../node_modules/bulma/css/bulma.css";
+
+.navbar {
+	background-color: #F8FAFF;
+	color: #c1c9d2;
+}
+
+a, i {
+	color: inherit;
+}
+
+i {
+	vertical-align: middle;
+}
+
+.hero {
+	background-color: #F8FAFF;
+}
+
+ .moon {
+ 	color: #818cab;
+ }
+
+ .sun {
+ 	color: #363636;
+ }
+
+.moon-icon-border {
+	color: #3ec48e;
+}
+
+.sun-icon-border {
+	color: #c1c9d2;
+}
+
+ input {
+ 	display: none;
+ }
+
 /* PrismJS 1.21.0
 https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript */
 /**
@@ -6,7 +44,6 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clik
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
  */
-
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
