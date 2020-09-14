@@ -1,7 +1,7 @@
-function scripts (file) {
+function scripts (file, type = 'text/javascript') {
     var script = document.createElement('script');
     script.src = file + '?v=' + Math.random();
-    script.type = 'text/javascript';
+    script.type = type;
     script.defer = true;
 
     document.getElementsByTagName('head').item(0).appendChild(script);
