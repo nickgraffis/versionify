@@ -3,11 +3,11 @@ function scripts (file, placement = 'head', type = 'text/javascript') {
     script.src = file + '?v=' + Math.random();
     script.type = type;
     script.defer = true;
-    
+
     if (placement === 'head') {
         document.getElementsByTagName('head').item(0).appendChild(script);
-    } esle if (placement === 'body') {
-        document.getElementsByTagName('body').item(0).appendChild(script);
+    } else if (placement === 'body') {
+      window.onload = function () {document.getElementsByTagName('body').item(0).appendChild(script)};
     }
 }
 
